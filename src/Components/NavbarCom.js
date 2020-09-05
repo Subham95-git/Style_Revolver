@@ -14,33 +14,33 @@ const NavbarComp = ()=>{
     return(
         <div>
         <Navbar bg="dark" expand="lg" variant="dark">
-  <Navbar.Brand href="/home">
+  <Navbar.Brand href="/Style_Revolver/home">
       <img src={BrandImage} style={{width:"150px"},{height:"75px"}}></img>
   </Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
-      <Nav.Link href="/home">Home</Nav.Link>
+      <Nav.Link href="/Style_Revolver/home">Home</Nav.Link>
       <NavDropdown title="Men" id="basic-nav-dropdown">
-        <NavDropdown.Item href="/men/shirt">Shirt</NavDropdown.Item>
-        <NavDropdown.Item href="/men/tshirt">Tshirt</NavDropdown.Item>
-        <NavDropdown.Item href="/men/pant">Pant</NavDropdown.Item>
+        <NavDropdown.Item href="/Style_Revolver/men/shirt">Shirt</NavDropdown.Item>
+        <NavDropdown.Item href="/Style_Revolver/men/tshirt">Tshirt</NavDropdown.Item>
+        <NavDropdown.Item href="/Style_Revolver/men/pant">Pant</NavDropdown.Item>
         <NavDropdown.Divider />
-        <NavDropdown.Item href="/men/others">Others</NavDropdown.Item>
+        <NavDropdown.Item href="/Style_Revolver/men/others">Others</NavDropdown.Item>
       </NavDropdown>
       <NavDropdown title="Women" id="basic-nav-dropdown">
-        <NavDropdown.Item href="/women/sarees">Sarees</NavDropdown.Item>
-        <NavDropdown.Item href="/women/kurtis">Kurtis</NavDropdown.Item>
-        <NavDropdown.Item href="/women/materials">Suits &amp; Dress Materials</NavDropdown.Item>
-        <NavDropdown.Item href="/women/western">Westernwear</NavDropdown.Item>
-        <NavDropdown.Item href="/women/inner">Inner &amp; Sleepwear</NavDropdown.Item>
+        <NavDropdown.Item href="/Style_Revolver/women/sarees">Sarees</NavDropdown.Item>
+        <NavDropdown.Item href="/Style_Revolver/women/kurtis">Kurtis</NavDropdown.Item>
+        <NavDropdown.Item href="/Style_Revolver/women/materials">Suits &amp; Dress Materials</NavDropdown.Item>
+        <NavDropdown.Item href="/Style_Revolver/women/western">Westernwear</NavDropdown.Item>
+        <NavDropdown.Item href="/Style_Revolver/women/inner">Inner &amp; Sleepwear</NavDropdown.Item>
         <NavDropdown.Divider />
-        <NavDropdown.Item href="/women/others">Others</NavDropdown.Item>
+        <NavDropdown.Item href="/Style_Revolver/women/others">Others</NavDropdown.Item>
       </NavDropdown>
-      <Nav.Link href="/kids">Kids</Nav.Link>
-      <Nav.Link href="/accessories">Accessories</Nav.Link>
-      <Nav.Link href="/beauty">Beauty</Nav.Link>
-      <Nav.Link href="/kitchen">Home &amp; kitchen</Nav.Link>
+      <Nav.Link href="/Style_Revolver/kids">Kids</Nav.Link>
+      <Nav.Link href="/Style_Revolver/accessories">Accessories</Nav.Link>
+      <Nav.Link href="/Style_Revolver/beauty">Beauty</Nav.Link>
+      <Nav.Link href="/Style_Revolver/kitchen">Home &amp; kitchen</Nav.Link>
     </Nav>
     <Form inline>
       <FormControl type="text" placeholder="Search" className="mr-sm-2" />
@@ -49,12 +49,12 @@ const NavbarComp = ()=>{
   </Navbar.Collapse>
 </Navbar>
 <Switch>
-    <Route exact path="/" component={Home}></Route>
-    <Route exact path="/home" component={Home}></Route>
-    <Route exact path="/men/shirt" component={MenShirt}></Route>
-    <Route exact path="/men/tshirt" component={MenTshirt}></Route>
-    <Route exact path="/men/pant" component={MenPant}></Route>
-    <Route exact path="/men/others" component={MenOther}></Route>
+    <Route exact path="/Style_Revolver/" component={Home}></Route>
+    <Route exact path="/Style_Revolver/home" component={Home}></Route>
+    <Route exact path="/Style_Revolver/men/shirt" component={MenShirt}></Route>
+    <Route exact path="/Style_Revolver/men/tshirt" component={MenTshirt}></Route>
+    <Route exact path="/Style_Revolver/men/pant" component={MenPant}></Route>
+    <Route exact path="/Style_Revolver/men/others" component={MenOther}></Route>
 </Switch>
 </div>
     );
