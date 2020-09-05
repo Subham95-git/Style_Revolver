@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Style_Revolver/static/css/main.4f23d412.chunk.css",
-    "main.js": "/Style_Revolver/static/js/main.93aaee30.chunk.js",
-    "main.js.map": "/Style_Revolver/static/js/main.93aaee30.chunk.js.map",
+    "main.js": "/Style_Revolver/static/js/main.7ce77a6b.chunk.js",
+    "main.js.map": "/Style_Revolver/static/js/main.7ce77a6b.chunk.js.map",
     "runtime-main.js": "/Style_Revolver/static/js/runtime-main.432b9eed.js",
     "runtime-main.js.map": "/Style_Revolver/static/js/runtime-main.432b9eed.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/Style_Revolver/static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.dd5dafcf.chunk.js": "/Style_Revolver/static/js/2.dd5dafcf.chunk.js",
     "static/js/2.dd5dafcf.chunk.js.map": "/Style_Revolver/static/js/2.dd5dafcf.chunk.js.map",
     "index.html": "/Style_Revolver/index.html",
-    "precache-manifest.b89dc2b71d8915c072127b912bb40f56.js": "/Style_Revolver/precache-manifest.b89dc2b71d8915c072127b912bb40f56.js",
+    "precache-manifest.814087e6fd0fe10ef19b19abab687f81.js": "/Style_Revolver/precache-manifest.814087e6fd0fe10ef19b19abab687f81.js",
     "service-worker.js": "/Style_Revolver/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/Style_Revolver/static/css/2.d9ad5f5c.chunk.css.map",
     "static/css/main.4f23d412.chunk.css.map": "/Style_Revolver/static/css/main.4f23d412.chunk.css.map",
@@ -51,6 +51,6 @@
     "static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.dd5dafcf.chunk.js",
     "static/css/main.4f23d412.chunk.css",
-    "static/js/main.93aaee30.chunk.js"
+    "static/js/main.7ce77a6b.chunk.js"
   ]
 }
