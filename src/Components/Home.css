@@ -4,8 +4,26 @@
     object-fit: cover;
 }
 Card{
-    border-radius: 25px;
+    border-radius: 75px;
 }
 body{
     background-color: rgb(223, 184, 221);
+}
+
+Carousel{
+    display: block;
+}
+.carouselStyle{
+    position: relative;
+    display: none;
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+    
+    backface-visibility: hidden;
+    transition: transform .6s ease-in-out;
+    height: 250px;
+}
+.image{
+    height: 250px;
 }
