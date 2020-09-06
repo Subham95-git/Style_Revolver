@@ -37,26 +37,26 @@ const Home = ()=>{
     return(
         <div className="body">
             <Carousel>
-                <Carousel.Item>
-                    <img src={women5} className="d-block w-100"></img>
+                <Carousel.Item className="carouselStyle">
+                    <img src={women5} className="d-block w-100 image"></img>
                 </Carousel.Item>
-                <Carousel.Item>
-                    <img src={women4} className="d-block w-100"></img>
+                <Carousel.Item className="carouselStyle">
+                    <img src={women4} className="d-block w-100 image"></img>
                 </Carousel.Item>
-                <Carousel.Item>
-                    <img src={Men1} className="d-block w-100"></img>
+                <Carousel.Item className="carouselStyle">
+                    <img src={Men1} className="d-block w-100 image"></img>
                 </Carousel.Item>
-                <Carousel.Item>
-                    <img src={sale} className="d-block w-100"></img>
+                <Carousel.Item className="carouselStyle">
+                    <img src={sale} className="d-block w-100 image"></img>
                 </Carousel.Item>
-                <Carousel.Item>
-                    <img src={handloom} className="d-block w-100"></img>
+                <Carousel.Item className="carouselStyle">
+                    <img src={handloom} className="d-block w-100 image"></img>
                 </Carousel.Item>
-                <Carousel.Item>
-                    <img src={saree} className="d-block w-100"></img>
+                <Carousel.Item className="carouselStyle">
+                    <img src={saree} className="d-block w-100 image"></img>
                 </Carousel.Item>
-                <Carousel.Item>
-                    <img src={sale2} className="d-block w-100"></img>
+                <Carousel.Item className="carouselStyle">
+                    <img src={sale2} className="d-block w-100 image"></img>
                 </Carousel.Item>
             </Carousel>
             <br></br>
